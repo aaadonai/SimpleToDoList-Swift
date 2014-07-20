@@ -13,6 +13,7 @@
 		A9CE1B7819728B54008EC317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CE1B7619728B54008EC317 /* Main.storyboard */; };
 		A9CE1B7A19728B54008EC317 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CE1B7919728B54008EC317 /* Images.xcassets */; };
 		A9CE1B8619728B55008EC317 /* TestSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CE1B8519728B55008EC317 /* TestSwiftTests.swift */; };
+		A9CE1B9219728C19008EC317 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CE1B9119728C19008EC317 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A9CE1B7F19728B55008EC317 /* TestSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9CE1B8419728B55008EC317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9CE1B8519728B55008EC317 /* TestSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftTests.swift; sourceTree = "<group>"; };
+		A9CE1B9119728C19008EC317 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskManager.swift; path = ../TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				A9CE1B7019728B54008EC317 /* AppDelegate.swift */,
 				A9CE1B7219728B54008EC317 /* FirstViewController.swift */,
 				A9CE1B7419728B54008EC317 /* SecondViewController.swift */,
+				A9CE1B9119728C19008EC317 /* TaskManager.swift */,
 				A9CE1B7619728B54008EC317 /* Main.storyboard */,
 				A9CE1B7919728B54008EC317 /* Images.xcassets */,
 				A9CE1B6E19728B54008EC317 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			files = (
 				A9CE1B7519728B54008EC317 /* SecondViewController.swift in Sources */,
 				A9CE1B7119728B54008EC317 /* AppDelegate.swift in Sources */,
+				A9CE1B9219728C19008EC317 /* TaskManager.swift in Sources */,
 				A9CE1B7319728B54008EC317 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
